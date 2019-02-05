@@ -17,6 +17,7 @@ namespace PalTrackerTests
             Environment.SetEnvironmentVariable("CF_INSTANCE_INDEX", "1");
             Environment.SetEnvironmentVariable("CF_INSTANCE_ADDR", "127.0.0.1");
 
+
             _testClient = IntegrationTestServer.Start().CreateClient();
         }
 
